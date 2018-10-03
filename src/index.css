@@ -362,3 +362,12 @@ body {
   left: 112px;
   margin-right: 5px;
 }
+
+.no-tickets{
+  font-weight: 600;
+  font-size: 1.375rem;
+  line-height: 1.875rem;
+  color: #4a4a4a;
+  color: var(--general-text-color,#4a4a4a);
+  padding: 75px 24px;
+}

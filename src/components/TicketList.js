@@ -23,7 +23,7 @@ class TicketList extends Component{
       <div>
       {tickets.length ? tickets.map((item)=>
         <Ticket ticket={item}/>
-      ) : <div class="ticket__container">Ни один билет не соответствует заданным фильтрам.</div>}
+      ) : <div class="ticket__container no-tickets">Ни один билет не соответствует заданным фильтрам.</div>}
       </div>
     )
   }
